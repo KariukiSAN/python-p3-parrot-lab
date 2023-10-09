@@ -1,5 +1,5 @@
-def parrot(arg=None):
-    if arg is None:
-        return "Squawk!"
-    else:
-        return arg
+def parrot(param = 'Squawk!'):
+    
+    print(param)
+
+    return param
